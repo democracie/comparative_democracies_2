@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  
+  <style type="text/css">
+	body
+{
+  background-color: white;
+}
+
+div#conteneur h1 /*comparative democraties*/
+{
+  position: fixed;
+  left: 50px;
+  top: 0px; 
+}
+div#conteneur h1 a /*comparative democraties police*/
+{ 
+  font-family: avenir; 
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 0.7px;
+  color: white;
+  text-decoration: none;
+}
+div#conteneur h2 /*red*/
+{ 
+  position: fixed;
+  left: 0px;
+  top: -50px;
+}
+.h2 /*CHOISIS QUI PEUT ÊTRE ÉLU*/
+{
+  position: fixed;
+  left: 400px;
+  right: 400px;
+  top: 220px;
+  text-align: center; 
+  font-family: avenir; 
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: black;
+} 
+.h3 a/*suivant*/
+{
+  position: fixed;
+  left: 500px;
+  right: 500px;
+  top: 590px;
+}  
+.h3 a/*suivant*/
+{
+  text-align: center; 
+  font-family: avenir; 
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: black;
+  text-rendering: optimizeLegibility; 
+  text-decoration: none;
+}
+.h3 a:hover/*suivant*/
+{
+  background-color: yellow;
+}
+.h4 /*image 1*/
+{
+  position: fixed;
+  left: 170px;
+  top: 300px;
+}
+.h5 /*image 1*/
+{
+  position: fixed;
+  left: 170px;
+  top: 300px;
+}
+.h6 /*image 2*/
+{
+  position: fixed;
+  left: 435px;
+  top: 300px;
+}
+.h7 /*image 2*/
+{
+  position: fixed;
+  left: 435px;
+  top: 300px;
+}
+.h7 a/*image 3*/
+{
+  opacity: 1;
+}
+.h13 /*image 3*/
+{
+  position: fixed;
+  left: 690px;
+  top: 300px;
+}
+.h14 /*image 3*/
+{
+  position: fixed;
+  left: 690px;
+  top: 300px;
+}
+.h14 a/*image*/
+{
+  opacity: 1;
+}
+.h9 /*texte 1*/
+{
+  position: fixed;
+  left: 170px;
+  top: 520px;
+  text-align: center; 
+  font-family: avenir; 
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+  text-rendering: optimizeLegibility;
+  word-break: break-word;
+}
+.h10 /*texte 2*/
+{
+  position: fixed;
+  left: 420px;
+  top: 520px;
+  text-align: center; 
+  font-family: avenir; 
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+  text-rendering: optimizeLegibility;
+  word-break: break-word;
+}
+.h11 /*texte 3*/
+{
+  position: fixed;
+  left: 680px;
+  top: 520px;
+  text-align: center; 
+  font-family: avenir; 
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+  text-rendering: optimizeLegibility;
+  word-break: break-word;
+}
+.h8 a/*ampoule*/
+{
+  position: fixed;
+  left: 900px;
+  top: 290px;
+}
+.h12 /*texte ampoule*/
+{
+  position: fixed;
+  left: 930px;
+  right: 90px;
+  top: 350px;
+  text-align: left; 
+  font-family: times; 
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: grey;
+  text-rendering: optimizeLegibility;
+  word-break: break-word;
+}
+.h15 /*sous-titre*/
+{
+  position: fixed;
+  left: 522px;
+  right: 250px;
+  top: 270px;
+  text-align: left; 
+  font-family: avenir; 
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: black;
+  text-rendering: optimizeLegibility;
+  word-break: break-word;
+}
+.retour a/*flèche retour*/
+{
+  position: fixed;
+  left: 250px;
+  top: 220px;
+}
+ul#menu /*parcours & bibliothèque & info*/
+{
+  position: fixed;
+  left: -5px;
+  top: 75px; 
+  list-style-type: none ;
+  float: left ;
+  text-decoration: none;
+}
+ul#menu li 
+{
+  display: inline;
+  padding : 0 1em;
+   }
+ul#menu li a
+{
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-align: center;
+}
+ul#menu #en-cours a
+{
+  color: white;
+  border-bottom: 3px solid;
+} 
+ul#menu li a:hover
+{
+  color: white;
+  border-bottom: 3px solid;
+}  
+
+/*images qui changent */
+#btnControl {
+    display: none;
+}
+#btnControl:checked + label > img {
+    opacity: 0;
+}
+#btnControl2 {
+    display: none;
+}
+#btnControl2:checked + label > img {
+    opacity: 0;
+}
+#btnControl3 {
+    display: none;
+}
+#btnControl3:checked + label > img {
+    opacity: 0;
+}
+
+	</style>
+	<body>
+	
+  <div id="conteneur">
+    <span class = h2>DÉSIGNE LES JUGES</span>
+    <span class = h3><a href="jeu33.html">suivant</a></span>
+    <span class = h4><a><img src="images/parcours44.jpg" width="150px" height="auto"></a></span>
+    <span class = h5><input type="checkbox" id="btnControl"/>
+    <label class="btn" for="btnControl"><img src="images/parcours43.jpg" id="btnLeft" width="150px" height="auto"></label></span>
+    <span class = h6><a><img src="images/parcours46.jpg" width="150px" height="auto"></a></span>
+    <span class = h7><input type="checkbox" id="btnControl2"/>
+    <label class="btn" for="btnControl2"><img src="images/parcours45.jpg" id="btnLeft" width="150px" height="auto"></label></span>
+    <span class = h13><a><img src="images/parcours48.jpg" width="150px" height="auto"></a></span>
+    <span class = h14><input type="checkbox" id="btnControl3"/>
+    <label class="btn" for="btnControl3"><img src="images/parcours47.jpg" id="btnLeft" width="150px" height="auto"></label></span>
+    <span class = h8><a><img src="images/symbole6.png" width="80px" height="auto"></a></span>
+    <span class = h9>les juges sont nommés<br>par les autres juges</br></span> 
+    <span class = h10>les juges sont nommés<br>par le gouvernement</br></span> 
+    <span class = h11>les juges sont nommés<br>par le parlement</br></span>   
+    <span class = h12>Les juges interprètent les lois et sont souvent politisés. Lorsqu'ils sont nommés par un autre pouvoir, il est important que la nomination soit soumise à des conditions comme des compétences spécifiques.<br><br>Il est également important de leur garantir une indépendance. Par exemple, les juges du tribunal fédéral de Suisse ne peuvent pas cumuler d'autres mandats.</br></br></span> 
+    <span class = h15>Choisis le type de nommination : </span>
+    <span class="retour"><a href="jeu31.html"><img src="images/symbole9.png" width="70px" height="auto"></a></span>
+ 
+    <h2 id="header"><img src="images/red.png" width="1500px" height="auto"></h2>
+    <h1 id="header"><a href="index.html">comparative democracies</a></h1>
+    
+</ul>
+    <div id='affichageImage'></div>
+		
+    <nav>
+      <ul id="menu">
+        <li><a href="hein.html">la démocratie, hein ?</a></li>
+        <li id="en-cours"><a href="jeu.html">explore les démocraties</a></li>
+        <li><a href="approfondis.html">approfondis les démocraties</a></li>
+        <li><a href="schemas.html">schémas</a></li>
+        <li><a href="definitions.html">définitions</a></li>
+        <li><a href="info.html">info.</a></li>
+        <li><a href="kit.html">kit</a></li>
+      </ul>   
+    </nav>
+
+  </div>
+  </body>
+</html>

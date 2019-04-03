@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="icon" type="image/png" href="favicon.png"> 
+  </head>
+  
+  <style type="text/css">
+  body
+{
+  background-color: white;
+}
+div#conteneur h1 /*comparative democraties*/
+{
+  position: fixed;
+  left: 50px;
+  top: -5px; 
+}
+div#conteneur h1 a /*comparative democraties police*/
+{ 
+  font-family: avenir; 
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 0.7px;
+  color: white;
+  text-decoration: none;
+}
+div#conteneur h2 /*red*/
+{ 
+  position: fixed;
+  left: 0px;
+  top: -60px;
+}
+.h3 /*image*/
+{ 
+  position: absolute;
+  left: 170px;
+  top: 200px;
+}
+.h4 a /*imprimante*/
+{ 
+  position: relative;
+  left: 1000px;
+  top: 250px;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  color : black;
+}
+ul#menu /*parcours & bibliothèque & info*/
+{
+  position: fixed;
+  left: -5px;
+  top: 60px; 
+  list-style-type: none ;
+  float: left ;
+  text-decoration: none;
+}
+ul#menu li 
+{
+  display: inline;
+  padding : 0 1em;
+   }
+ul#menu li a
+{
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-align: center;
+}
+ul#menu #en-cours a
+{
+  color: white;
+  border-bottom: 3px solid;
+}
+ul#menu li a:hover
+{
+  color: white;
+  border-bottom: 3px solid;
+} 
+
+
+  </style>
+  <body>
+  
+  <div id="conteneur">
+     <span class = h3><img src="images/kit.png" width="900px" height="auto"></span> 
+     <h2 id="header"><img src="images/red.png" width="1500px" height="auto"></h2>
+     <h1 id="header"><a href="index.html">comparative democracies</a></h1>
+     <span class="h4"><a href="javascript:window.print()"><img src="images/symbole5.png" width="70px" height="auto"></a></span>     
+    
+    <nav>
+      <ul id="menu">
+      	<li><a href="hein.html">la démocratie, hein ?</a></li>
+        <li><a href="jeu.html">explore les démocraties</a></li>
+        <li><a href="approfondis.html">approfondis les démocraties</a></li>
+        <li><a href="schemas.html">schémas</a></li>
+        <li><a href="definitions.html">définitions</a></li>
+        <li><a href="info.html">info.</a></li>
+        <li id="en-cours"><a href="kit.html">kit</a></li>
+      </ul>
+      
+    </nav>
+
+  </div>
+
+  
+
+  <script type="text/javascript">     
+  function imprimer() {    
+  var imprimer = document.getElementById('imprimer');
+  var popupcontenu = window.open('', '_blank');
+  popupcontenu.document.open();
+  popupcontenu.document.write('<html><body onload="window.print()">' + imprimer.innerHTML + '</html>');
+  popupcontenu.document.close();
+}
+</script>
+  </body>
+</html>
