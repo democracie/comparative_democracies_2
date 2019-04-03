@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="icon" type="image/png" href="favicon.png"> 
+  </head>
+  
+  <style type="text/css">
+  body
+{
+  background-color: white;
+}
+
+div#conteneur h1 /*comparative democraties*/
+{
+  position: fixed;
+  left: 50px;
+  top: 0px; 
+}
+div#conteneur h1 a /*comparative democraties police*/
+{ 
+  font-family: avenir; 
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 0.7px;
+  color: white;
+  text-decoration: none;
+}
+div#conteneur h2 /*red*/
+{ 
+  position: fixed;
+  left: 0px;
+  top: -50px;
+}
+.h3 /*image*/
+{ 
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+.h4 a/*gif pa*/
+{ 
+  position: absolute;
+  left: 340px;
+  top: 1000px;
+}
+.h4 a:hover
+{ 
+  cursor: pointer;
+}
+.h5 /*gif pa*/
+{ 
+  position: absolute;
+  left: 190px;
+  top: 920px;
+}
+.h5 :hover
+{ 
+  cursor: pointer;
+}
+.h6 a/*gif pr*/
+{ 
+  position: absolute;
+  left: 340px;
+  top: 1700px;
+}
+.h6 a:hover
+{ 
+  cursor: pointer;
+}
+.h7 /*gif pr*/
+{ 
+  position: absolute;
+  left: 190px;
+  top: 1620px;
+}
+.h7 :hover
+{ 
+  cursor: pointer;
+}
+.h8 a/*gif mi*/
+{ 
+  position: absolute;
+  left: 340px;
+  top: 2400px;
+}
+.h8 a:hover
+{ 
+  cursor: pointer;
+}
+.h9 /*gif mi*/
+{ 
+  position: absolute;
+  left: 190px;
+  top: 2320px;
+}
+.h9 :hover
+{ 
+  cursor: pointer;
+}
+.h10 a/*gif di*/
+{ 
+  position: absolute;
+  left: 340px;
+  top: 3100px;
+}
+.h10 a:hover
+{ 
+  cursor: pointer;
+}
+.h11 /*gif di*/
+{ 
+  position: absolute;
+  left: 190px;
+  top: 3020px;
+}
+.h11 :hover
+{ 
+  cursor: pointer;
+}
+.h12 /*flèche*/
+{ 
+  position: absolute;
+  left: 590px;
+  top: 1550px;
+}
+.h13 /*flèche*/
+{ 
+  position: absolute;
+  left: 590px;
+  top: 2250px;
+}
+.h14 /*flèche*/
+{ 
+  position: absolute;
+  left: 590px;
+  top: 2950px;
+}
+.h15 a /*flèche*/
+{ 
+  position: absolute;
+  left: 590px;
+  top: 3700px;
+}
+.h15 a:hover /*flèche*/
+{
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+}
+.h16 /*white*/
+{ 
+  position: absolute;
+  left: 0px;
+  top: 3800px;
+}
+ul#menu /*parcours & bibliothèque & info*/
+{
+  position: fixed;
+  left: -5px;
+  top: 75px; 
+  list-style-type: none ;
+  float: left ;
+  text-decoration: none;
+}
+ul#menu li 
+{
+  display: inline;
+  padding : 0 1em;
+   }
+ul#menu li a
+{
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-align: center;
+}
+ul#menu #en-cours a
+{
+  color: white;
+  border-bottom: 3px solid;
+} 
+ul#menu li a:hover
+{
+  color: white;
+  border-bottom: 3px solid;
+}  
+/*images qui changent */
+#btnControl {
+    display: none;
+    cursor: pointer;
+}
+#btnControl:checked + label > img {
+    opacity: 0;
+    cursor: pointer;
+}
+#btnControl2 {
+    display: none;
+}
+#btnControl2:checked + label > img {
+    opacity: 0;
+    cursor: pointer;
+}
+#btnControl3 {
+    display: none;
+}
+#btnControl3:checked + label > img {
+    opacity: 0;
+    cursor: pointer;
+}
+#btnControl4 {
+    display: none;
+}
+#btnControl4:checked + label > img {
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+  </style>
+  <body>
+  
+  <div id="conteneur">
+     <span class = h3><img src="images/regimes.png" width="1000px" height="auto"></span>
+     <span class = h4><a><img src="images/parlementaire.gif" width="800px" height="auto"></a></span>
+     <span class = h5><input type="checkbox" id="btnControl" cursor="pointer"/>
+     <label class="btn" for="btnControl"><img src="images/parlementaire.jpg" id="btnLeft" width="900px" height="auto" cursor="pointer"></label></span>
+     <span class = h6><a><img src="images/presidentiel.gif" width="800px" height="auto"></a></span>
+     <span class = h7><input type="checkbox" id="btnControl2"/>
+     <label class="btn" for="btnControl2"><img src="images/presidentiel.jpg" id="btnLeft" width="900px" height="auto"></label></span>
+     <span class = h8><a><img src="images/mixte.gif" width="800px" height="auto"></a></span>
+     <span class = h9><input type="checkbox" id="btnControl3"/>
+     <label class="btn" for="btnControl3"><img src="images/mixte.jpg" id="btnLeft" width="900px" height="auto"></label></span>
+     <span class = h10><a><img src="images/directorial.gif" width="800px" height="auto"></a></span>
+     <span class = h11><input type="checkbox" id="btnControl4"/>
+     <label class="btn" for="btnControl4"><img src="images/directorial.jpg" id="btnLeft" width="900px" height="auto"></label></span>
+     <span class = h12><img src="images/symboles10.png" width="100px" height="auto"></span>
+     <span class = h13><img src="images/symboles10.png" width="100px" height="auto"></span>
+     <span class = h14><img src="images/symboles10.png" width="100px" height="auto"></span>
+     <span class = h15><a href="zoom2.html"><img src="images/symboles10.png" width="150px" height="auto"></a></span>
+     <span class = h16><img src="images/white.png" width="1100px" height="auto"></span>
+     <h2 id="header"><img src="images/red.png" width="1500px" height="auto"></h2>
+     <h1 id="header"><a href="index.html">comparative democracies</a></h1>
+    
+    <nav>
+      <ul id="menu">
+        <li><a href="hein.html">la démocratie, hein ?</a></li>
+        <li><a href="jeu.html">explore les démocraties</a></li>
+        <li id="en-cours"><a href="approfondis.html">approfondis les démocraties</a></li>
+        <li><a href="schemas.html">schémas</a></li>
+        <li><a href="definitions.html">définitions</a></li>
+        <li><a href="info.html">info.</a></li>
+        <li><a href="kit.html">kit</a></li>
+      </ul>   
+    </nav>
+
+  </div>
+  </body>
+</html>
